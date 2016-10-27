@@ -389,7 +389,7 @@ var shape = {
 
 
 ## Independent Practice
-Refine the skills covered in this workshop with some [Function Training](https://github.com/sf-wdi-33/functions-training)
+Refine the skills covered in this workshop with some [Function Training](https://github.com/sf-wdi-33/functions-exercises)
 
 ## Closing Thoughts
 - You should now know the difference between defining and calling a function, you should be able to write functions that return values.
