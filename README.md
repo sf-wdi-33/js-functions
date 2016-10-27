@@ -67,6 +67,7 @@ The function below is defined to display the message `'Hi, everyone!'` to a cons
     function greetEveryone() {
         // anything inside the curly braces will be executed
         console.log('Hi, everyone!');
+        return 'Hi, everyone!';
     }
 ```
 
@@ -86,6 +87,7 @@ When a function requires a parameter, it will use an input value to perform an a
     // function definition
     function greetPerson(name) {
         console.log('Hello ' + name);
+        return 'Hello ' + name;
     }
 ```
 
@@ -195,6 +197,7 @@ Functions may perform actions upon Strings as well.
     // function definition
     function shout(phrase) {
         console.log(phrase.toUpperCase());
+        return phrase.toUpperCase();   
     }
 
     var phrase = 'i am mighty.'
@@ -207,6 +210,7 @@ Functions may perform actions upon Strings as well.
     // function definition
     function whisper(phrase) {
         console.log(phrase.toLowerCase());
+        return phrase.toLowerCase();
     }
 
     //function call
@@ -279,9 +283,9 @@ Functions are able to receive and return boolean values.  Functions that return 
 // outputs a statement based on boolean value
 function hasCheezburger(answer)){
     if (answer === true) {
-        console.log("Can I haz ur Cheezburger?");
+        return 'Can I haz ur Cheezburger?';
     } else {
-        console.log("Y no Cheezburger?");
+        return 'Y no Cheezburger?';
     }
 }
 var answer = true;
@@ -385,7 +389,7 @@ var shape = {
 
 
 ## Independent Practice
-Refine the skills covered in this workshop with some [Function Training](https://github.com/sf-wdi-31/functions-training)
+Refine the skills covered in this workshop with some [Function Training](https://github.com/sf-wdi-33/functions-training)
 
 ## Closing Thoughts
 - You should now know the difference between defining and calling a function, you should be able to write functions that return values.
